@@ -1,9 +1,14 @@
 import React, { useState } from "react";
-
+import { Home, Features, Team, Blogs } from "./components";
 const App = () => {
-  const [count, setCount] = useState(0);
-
-  return <h1 className="text-5xl">Hello vite</h1>;
+  return (
+    <>
+      <Home />
+      <Features />
+      <Team />
+      <Blogs />
+    </>
+  );
 };
 
 export default App;
