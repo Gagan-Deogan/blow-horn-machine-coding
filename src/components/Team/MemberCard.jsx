@@ -1,10 +1,11 @@
 import React from "react";
-
-export const MemberCard = ({ name, imageSrc, designation }) => {
+import { Twitter, Git } from "../../assests/images/Icons";
+export const MemberCard = ({ name, imageSrc, designation, bgColor }) => {
   return (
-    <div className="">
-      <div className="p-4 bg-blue-200 rounded-tl-full rounded-b-full">
-        <div className="w-48 h-48 rounded-full overflow-hidden">
+    <article className="mt-8">
+      <div
+        className={`p-2 md:p-4 bg-${bgColor}-100 rounded-tl-full rounded-b-full`}>
+        <div className="w-36 h-36 lg:w-48 lg:h-48 rounded-full overflow-hidden">
           <img
             className="object-cover object-top w-full"
             src={imageSrc}
@@ -12,8 +13,16 @@ export const MemberCard = ({ name, imageSrc, designation }) => {
           />
         </div>
       </div>
-      <h6 className="">{name}</h6>
+      <h6 className="mt-2">{name}</h6>
       <h6 className="text-blue-700">{designation}</h6>
-    </div>
+      <div className="flex flex-row justify-center text-gray-500">
+        <div className="mx-2">
+          <Twitter />
+        </div>
+        <div className="mx-2">
+          <Git />
+        </div>
+      </div>
+    </article>
   );
 };
