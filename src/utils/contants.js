@@ -1,17 +1,17 @@
 import productivityImage from "../assests/images/logos/productivity.png";
 import settingImage from "../assests/images/logos/settings.png";
-import AcademicCapIcon from "../../assests/images/Icons/AcademicCap.svg";
-import ArchiveIcon from "../../assests/images/Icons/Archive.svg";
-import CouponIcon from "../../assests/images/Icons/Coupon.svg";
-import CodeIcon from "../../assests/images/Icons/Code.svg";
-import NotificationIcon from "../../assests/images/Icons/Notification.svg";
-import SecureIcon from "../../assests/images/Icons/Secure.svg";
-import disneyLogo from "../../assests/images/logos/disney.png";
-import googleLogo from "../../assests/images/logos/google.png";
-import youtubeLogo from "../../assests/images/logos/youtube.png";
-import shopifyLogo from "../../assests/images/logos/shopify.png";
-import slackLogo from "../../assests/images/logos/slack.png";
-import hubspotLogo from "../../assests/images/logos/hubspot.png";
+import AcademicCapIcon from "../assests/images/Icons/AcademicCap.svg";
+import ArchiveIcon from "../assests/images/Icons/Archive.svg";
+import CouponIcon from "../assests/images/Icons/Coupon.svg";
+import CodeIcon from "../assests/images/Icons/Code.svg";
+import NotificationIcon from "../assests/images/Icons/Notification.svg";
+import SecureIcon from "../assests/images/Icons/Secure.svg";
+import disneyLogo from "../assests/images/logos/disney.png";
+import googleLogo from "../assests/images/logos/google.png";
+import youtubeLogo from "../assests/images/logos/youtube.png";
+import shopifyLogo from "../assests/images/logos/shopify.png";
+import slackLogo from "../assests/images/logos/slack.png";
+import hubspotLogo from "../assests/images/logos/hubspot.png";
 export const blogs = [
   {
     title: "Refreshing Designs",

@@ -6,7 +6,7 @@ import { NavHashLink } from "react-router-hash-link";
 
 export const Hamburger = () => {
   return (
-    <div className="md:hidden">
+    <div className="md:hidden ml-1">
       <Menu as="div" className="relative inline-block text-left">
         <Menu.Button className="inline-flex justify-center w-full p-2 text-sm font-medium text-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
           <MenuAlt3Icon
