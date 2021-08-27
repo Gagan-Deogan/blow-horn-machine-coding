@@ -9,8 +9,8 @@ export const SmBlog = ({ imageSrc, title, paragraph, badge, bgColor }) => {
           className={`p-2 md:py-2 md:px-3 text-white absolute -top-5 rounded-full bg-${bgColor} font-bold`}>
           <h6>{badge}</h6>
         </div>
-        <h4 className="text-lg md:text-2xl font-bold">{title}</h4>
-        <p className="leading-normal mt-1 md:mt-4">{paragraph}</p>
+        <h4 className="text-lg md:text-xl font-bold">{title}</h4>
+        <p className="leading-normal mt-1 md:mt-2">{paragraph}</p>
       </div>
     </article>
   );

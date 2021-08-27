@@ -40,7 +40,7 @@ export const TrustedCompaines = () => {
       </h6>
       <div className="flex flex-row w-full flex-wrap justify-center items-center mt-8">
         {trustedCompanies.map(({ src, alt }) => (
-          <div className="mx-2 md:mx-4 w-24 md:w-48" key={alt}>
+          <div className="mx-2 md:mx-4 w-24 md:w-28" key={alt}>
             <img src={src} alt={alt} />
           </div>
         ))}

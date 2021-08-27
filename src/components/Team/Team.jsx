@@ -62,7 +62,7 @@ const members = [
 export const Team = () => {
   return (
     <div className="relative">
-      <div className="absolute top-16 md:top-28 right-0 w-24 h-12 md:w-48 md:h-24 bg-blue-200 rounded-l-full"></div>
+      <div className="absolute top-32 md:top-28 right-0 w-24 h-12 md:w-48 md:h-24 bg-blue-200 rounded-l-full"></div>
       <section className="relative ">
         <h6 className="text-blue-600 ">OUR TEAM</h6>
         <h2 className="font-bold md:text-4xl lg:text-6xl">
