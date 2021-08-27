@@ -1,5 +1,17 @@
 import productivityImage from "../assests/images/logos/productivity.png";
 import settingImage from "../assests/images/logos/settings.png";
+import AcademicCapIcon from "../../assests/images/Icons/AcademicCap.svg";
+import ArchiveIcon from "../../assests/images/Icons/Archive.svg";
+import CouponIcon from "../../assests/images/Icons/Coupon.svg";
+import CodeIcon from "../../assests/images/Icons/Code.svg";
+import NotificationIcon from "../../assests/images/Icons/Notification.svg";
+import SecureIcon from "../../assests/images/Icons/Secure.svg";
+import disneyLogo from "../../assests/images/logos/disney.png";
+import googleLogo from "../../assests/images/logos/google.png";
+import youtubeLogo from "../../assests/images/logos/youtube.png";
+import shopifyLogo from "../../assests/images/logos/shopify.png";
+import slackLogo from "../../assests/images/logos/slack.png";
+import hubspotLogo from "../../assests/images/logos/hubspot.png";
 export const blogs = [
   {
     title: "Refreshing Designs",
@@ -95,5 +107,70 @@ export const details = [
       "Detailed analytics for your data",
       "Some awesome integrations",
     ],
+  },
+];
+
+export const features = [
+  {
+    icon: AcademicCapIcon,
+    title: "Certifications",
+    paragraph:
+      "Each of our plan will provide you and your team with certifications",
+  },
+  {
+    icon: NotificationIcon,
+    title: "Notifications",
+    paragraph:
+      "Send out notifications to all your customers to keep them engaged.",
+  },
+  {
+    icon: ArchiveIcon,
+    title: "Bundles",
+    paragraph: "High-quality bundles of awesome tools to help you out.",
+  },
+  {
+    icon: CodeIcon,
+    title: "Developer Tools",
+    paragraph:
+      "Developer tools to help grow your application and keep it up-to-date.",
+  },
+  {
+    icon: SecureIcon,
+    title: "Building Blocks",
+    paragraph:
+      "The right kind of building blocks to take your company to the next level.",
+  },
+  {
+    icon: CouponIcon,
+    title: "Coupons",
+    paragraph:
+      "Coupons system to provide special offers and discounts for your app.",
+  },
+];
+
+export const trustedCompanies = [
+  {
+    src: disneyLogo,
+    alt: "disney-logo",
+  },
+  {
+    src: googleLogo,
+    alt: "google-logo",
+  },
+  {
+    src: hubspotLogo,
+    alt: "hubspot-logo",
+  },
+  {
+    src: youtubeLogo,
+    alt: "youtube-logo",
+  },
+  {
+    src: slackLogo,
+    alt: "slack-logo",
+  },
+  {
+    src: shopifyLogo,
+    alt: "shopify-logo",
   },
 ];

@@ -1,5 +1,7 @@
 import React from "react";
-import { Twitter, Git } from "../../assests/images/Icons";
+import Twitter from "../../assests/images/Icons/Twitter.svg";
+import Git from "../../assests/images/Icons/Git.svg";
+
 export const MemberCard = ({ name, imageSrc, designation, bgColor }) => {
   return (
     <article className="mt-8">
@@ -17,10 +19,10 @@ export const MemberCard = ({ name, imageSrc, designation, bgColor }) => {
       <h6 className="text-blue-700">{designation}</h6>
       <div className="flex flex-row justify-center text-gray-500">
         <div className="mx-2">
-          <Twitter />
+          <img src={Twitter} alt="" />
         </div>
         <div className="mx-2">
-          <Git />
+          <img src={Git} alt="" />
         </div>
       </div>
     </article>

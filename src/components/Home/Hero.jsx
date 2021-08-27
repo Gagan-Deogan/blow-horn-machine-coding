@@ -12,10 +12,15 @@ export const HeroSection = () => {
         </h1>
         <p className="text-lg text-center mt-4">
           Simplifying the creation of landing pages blog pages, <br />{" "}
-          appliaction pages and so much more!
+          application pages and so much more!
         </p>
         <div className="flex flex-col items-center mt-10">
-          <button className="pry-btn">Purcahase Now</button>
+          <button className="pry-btn relative">
+            <span className="absolute -top-5 -right-8 p-1 bg-green-400 rounded-full text-sm font-normal">
+              only $15/mo
+            </span>
+            Purchase Now
+          </button>
           <button className="sec-btn mt-2">Learn More</button>
         </div>
       </div>

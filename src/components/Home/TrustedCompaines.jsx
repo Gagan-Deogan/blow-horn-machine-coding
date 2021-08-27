@@ -1,36 +1,5 @@
 import React from "react";
-import disneyLogo from "../../assests/images/logos/disney.png";
-import googleLogo from "../../assests/images/logos/google.png";
-import youtubeLogo from "../../assests/images/logos/youtube.png";
-import shopifyLogo from "../../assests/images/logos/shopify.png";
-import slackLogo from "../../assests/images/logos/slack.png";
-import hubspotLogo from "../../assests/images/logos/hubspot.png";
-const trustedCompanies = [
-  {
-    src: disneyLogo,
-    alt: "disney-logo",
-  },
-  {
-    src: googleLogo,
-    alt: "google-logo",
-  },
-  {
-    src: hubspotLogo,
-    alt: "hubspot-logo",
-  },
-  {
-    src: youtubeLogo,
-    alt: "youtube-logo",
-  },
-  {
-    src: slackLogo,
-    alt: "slack-logo",
-  },
-  {
-    src: shopifyLogo,
-    alt: "shopify-logo",
-  },
-];
+import { trustedCompanies } from "../../utils";
 
 export const TrustedCompaines = () => {
   return (

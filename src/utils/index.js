@@ -1,1 +1,9 @@
-export { smBlogs, blogs, breakpoints, navLinks, details } from "./contants";
+export {
+  smBlogs,
+  blogs,
+  breakpoints,
+  navLinks,
+  details,
+  features,
+  trustedCompanies,
+} from "./contants";

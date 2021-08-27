@@ -5,9 +5,6 @@ import { SwiperCustome } from "../SwiperCustom/SwiperCustom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Navigation } from "swiper";
 import { smBlogs, blogs, breakpoints } from "../../utils";
-// Import Swiper styles
-
-// install Swiper modules
 SwiperCore.use([Pagination, Navigation]);
 
 export const Blogs = () => {
